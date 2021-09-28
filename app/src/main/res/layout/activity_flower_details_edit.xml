@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flowerDetailsEdit"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Flower"
+        android:layout_marginTop="30dp"
+        android:textAlignment="textStart"
+        android:textSize="30dp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flower Name"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/updateflowerName"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flower Price"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/updateflowerPrice"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flower Cost"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/updateflowerCost"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint=""/>
+    <Button
+        android:id="@+id/updateflowerdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"/>
+
+
+
+</LinearLayout>
